@@ -42,7 +42,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid rgb(179, 39, 39);
     margin: 1em 0;
     padding: 0;
 }
@@ -96,9 +96,9 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
-  height: 100%;
-  width: 100%;
+    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -106,19 +106,21 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
-}
-
-header,
-footer {
-  background-color: #222;
-  height: 80px;
-  width: 100%;
+  color: rgb(14, 13, 13);
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+    color: #0a0544;
+    height: 250px;
+    width: 100%;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  }
+
+header,
+footer {
+  height: 80px;
   width: 100%;
 }
 
@@ -128,24 +130,34 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 1.5em;
 }
 
+header {
+    font-size: 5em;
+    color: #e8e6f6;
+    font-family: 'Imperial Script', cursive;
+}
+
+  footer {
+    color: #0a0544;
+    font-size: 1.5em;
+}
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     justify-content: space-between;    
-
+    background-color: rgba(163, 158, 158, 0.774);
 }
 
 .flex-items {
-  color: #fff;
+  color: #e8e6f6;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+  font-size: 1.3em;
+  width: 33.15%;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
